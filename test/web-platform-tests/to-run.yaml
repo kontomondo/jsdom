@@ -55,7 +55,6 @@ cssom-getBoxQuads-001.html: [fail, Not implemented]
 cssom-getClientRects-002.html: [fail, Unknown]
 cssom-view-img-attributes-001.html: [fail, Unknown]
 dom-element-scroll.html: [fail, Scroll methods not implemented]
-elementFromPoint-001.html: [fail, Not implemented]
 elementFromPoint-002.html: [fail, Not implemented]
 elementFromPoint-003.html: [fail, Not implemented]
 elementFromPoint-dynamic-anon-box.html: [fail, Not implemented]
@@ -66,7 +65,6 @@ elementFromPoint.html: [fail, Not implemented]
 elementFromPosition.html: [fail, Unknown]
 elementScroll.html: [fail, Unknown]
 elementsFromPoint**: [fail, Not implemented]
-getBoundingClientRect-empty-inline.html: [fail, document.fonts is not implemented]
 getClientRects**: [fail, Not implemented]
 idlharness.html: [fail, Depends on Fetch]
 inheritance.html: [fail, inherit not implemented (or not properly implemented)]
@@ -534,6 +532,8 @@ formaction.html: [fail, Unknown]
 ---
 
 DIR: html/semantics/forms/constraints
+
+form-validation-validity-customError.html: [fail, see wpt issue 20825]
 
 ---
 
